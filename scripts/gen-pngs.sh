@@ -190,3 +190,28 @@ inkscape \
   --export-width=1404 \
   --export-height=1872 \
   ../src/sprint.svg
+
+# Jimmy
+
+inkscape \
+  --export-area-page \
+  --export-background-opacity=1 \
+  --export-background="#ffffff" \
+  --export-type="png"  \
+  --export-filename="JS Day Planner.png" \
+  --export-width=1404 \
+  --export-height=1872 \
+  ../src/day.svg
+
+inkscape \
+  --export-area-page \
+  --export-background-opacity=1 \
+  --export-background="#ffffff" \
+  --export-type="svg"  \
+  --export-plain-svg \
+  --export-text-to-path \
+  --vacuum-defs \
+  --export-filename="JS Day Planner.svg" \
+  --export-width=1404 \
+  --export-height=1872 \
+  ../src/day.svg
